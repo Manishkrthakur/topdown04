@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 18px;
+    height: calc(100vh);
+    background-image: url(./view-spectacular-nature-landscape_23-2150763636.avif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.do{
+    height: 20px;
+    width: 20px;
+   
+}
+
+ul{
+    background-color: rgb(75, 190, 110);
+    color:white;
+}
+ul li{
+    display: inline-block;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+ul li:hover{
+    background-color: rgb(213, 122, 122);
+    color: white;
+    cursor: pointer;
+}.courses{
+    display: none;
+}
+ ul li:hover .courses{
+    position: absolute;
+    display: block;
+    width: 150px;
+    margin: -10px;
+    margin-top: 10px;
+}
+.courses ul{
+    position: absolute;
+    display: inline-block;
+}
+.courses ul li{
+    border: 1px solid rebeccapurple;
+    width: 100%;
+}
+.dsa{
+    display: none;
+}
+.courses ul:hover .dsa{
+    position: absolute;
+    display: block;
+    margin-left: 128px;
+    margin-top: -30px;
+}
+.dsa li{
+    border: 1px solid red;
+    width: 100%;
+    margin: 1px;
+}
